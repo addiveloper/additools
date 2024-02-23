@@ -3,9 +3,7 @@
   "compilerOptions": {
     "baseUrl": "C:/Users/migue/Projects/2024/AddiTools",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["src/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
