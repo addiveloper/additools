@@ -1,0 +1,226 @@
+{
+  "resources": [
+    {
+      "title": "Realtime Colors",
+      "url": "https://realtimecolors.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/realtime-colors.png",
+      "tags": ["Front-end", "Colors"]
+    },
+    {
+      "title": "bg.ibelick",
+      "url": "https://bg.ibelick.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/bg.ibelick.png",
+      "tags": ["Front-end", "Backgrounds"]
+    },
+    {
+      "title": "Squoosh",
+      "url": "https://squoosh.app",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/squoosh.png",
+      "tags": ["Optimization", "Images"]
+    },
+    {
+      "title": "Shots",
+      "url": "https://shots.so",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/shots.png",
+      "tags": ["Front-end", "Images"]
+    },
+    {
+      "title": "Dribbble",
+      "url": "https://dribbble.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/dribbble.png",
+      "tags": ["Inspiration", "Front-end"]
+    },
+    {
+      "title": "Behance",
+      "url": "https://behance.net",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/behance.png",
+      "tags": ["Inspiration", "Front-end"]
+    },
+    {
+      "title": "Meta Tags",
+      "url": "https://metatags.io",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/metatags.png",
+      "tags": ["Accesibility"]
+    },
+    {
+      "title": "Lucide",
+      "url": "https://lucide.dev",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/lucide.png",
+      "tags": ["Front-end", "Icons", "SVG"]
+    },
+    {
+      "title": "shadcn/ui",
+      "url": "https://ui.shadcn.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/shadcnui.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "Cool Contrast",
+      "url": "https://coolcontrast.vercel.app",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/coolcontrast.png",
+      "tags": ["Front-end", "Accesibility"]
+    },
+    {
+      "title": "Refero",
+      "url": "https://refero.design",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/refero.design.png",
+      "tags": ["Inspiration", "Front-end"]
+    },
+    {
+      "title": "Dark Design",
+      "url": "https://dark.design",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/dark.design.png",
+      "tags": ["Inspiration", "Front-end"]
+    },
+    {
+      "title": "readme.so",
+      "url": "https://readme.so",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/readme.so.png",
+      "tags": ["Others"]
+    },
+    {
+      "title": "Godly",
+      "url": "https://godly.website",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/godly.website.png",
+      "tags": ["Inspiration", "Front-end"]
+    },
+    {
+      "title": "Themes for shadcn/ui",
+      "url": "https://ui.jln.dev",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/ui.jln.dev.png",
+      "tags": ["Front-end", "Components", "Colors"]
+    },
+    {
+      "title": "Recharts",
+      "url": "https://recharts.org",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/recharts.png",
+      "tags": ["Front-end", "Libraries"]
+    },
+    {
+      "title": "Rough Notation",
+      "url": "https://roughnotation.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/roughnotation.png",
+      "tags": ["Front-end", "Libraries"]
+    },
+    {
+      "title": "Rough.js",
+      "url": "https://roughjs.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/roughjs.png",
+      "tags": ["Front-end", "Libraries"]
+    },
+    {
+      "title": "rehype-pretty-code",
+      "url": "https://rehype-pretty-code.netlify.app",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/rehype-pretty-code.png",
+      "tags": ["Front-end", "Libraries"]
+    },
+    {
+      "title": "animation.ibelick.com",
+      "url": "https://animation.ibelick.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/animation.ibelick.png",
+      "tags": ["Front-end", "Animations"]
+    },
+    {
+      "title": "ui.ibelick.com",
+      "url": "https://ui.ibelick.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/ui.ibelick.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "buttons.ibelick.com",
+      "url": "https://buttons.ibelick.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/buttons.ibelick.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "Plate",
+      "url": "https://platejs.org",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/platejs.png",
+      "tags": ["Front-end", "Text Editor"]
+    },
+    {
+      "title": "SVGOMG",
+      "url": "https://jakearchibald.github.io/svgomg",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/svgomg.png",
+      "tags": ["Optimization", "SVG"]
+    },
+    {
+      "title": "Social Share Preview",
+      "url": "https://socialsharepreview.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/socialsharepreview.png",
+      "tags": ["Accesibility"]
+    },
+    {
+      "title": "SVGL",
+      "url": "https://svgl.app",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/svgl.png",
+      "tags": ["Front-end", "SVG"]
+    },
+    {
+      "title": "Flowbite",
+      "url": "https://flowbite.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/flowbite.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "Can I use...",
+      "url": "https://caniuse.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/caniuse.png",
+      "tags": ["Accesibility"]
+    },
+    {
+      "title": "Caninclude",
+      "url": "https://caninclude.glitch.me",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/caninclude.png",
+      "tags": ["Accesibility"]
+    },
+    {
+      "title": "Heroicons",
+      "url": "https://heroicons.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/heroicons.png",
+      "tags": ["Front-end", "Icons", "SVG"]
+    },
+    {
+      "title": "Grabient",
+      "url": "https://grabient.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/grabient.png",
+      "tags": ["Front-end", "Colors"]
+    },
+    {
+      "title": "NextUI",
+      "url": "https://nextui.org",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/nextui.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "Headless UI",
+      "url": "https://headlessui.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/headlessui.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "Sonner",
+      "url": "https://sonner.emilkowal.ski",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/sonner.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/aceternity.png",
+      "tags": ["Front-end", "Components"]
+    },
+    {
+      "title": "Framer Motion",
+      "url": "https://framer.com/motion",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/framermotion.png",
+      "tags": ["Front-end", "Libraries"]
+    },
+    {
+      "title": "Tailwind CSS Animations",
+      "url": "https://tailwindcss-animations.vercel.app",
+      "image": "https://ik.imagekit.io/addiveloper/AddiTools/tailwindcss-animations.png",
+      "tags": ["Front-end", "Libraries"]
+    }
+  ]
+}

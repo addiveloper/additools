@@ -1,0 +1,49 @@
+---
+import "@fontsource-variable/inter";
+import Noise from "@/components/Noise.astro";
+import { Toaster } from "sonner";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Toaster client:load />
+    <Noise />
+    <slot />
+  </body>
+</html>
+<style is:global>
+  :root {
+    --color-primary: #262626;
+    --color-secondary: #ddd;
+    --color-accent: #ffffff;
+    --color-tags: #444444;
+
+    --background-color: var(--color-secondary);
+  }
+
+  .dark {
+    --color-primary: #ddd;
+    --color-secondary: #262626;
+    --color-accent: #1d1d1d;
+  }
+
+  html {
+    font-family: "Inter Variable", sans-serif, system-ui;
+    background: var(--background-color);
+  }
+</style>

@@ -1,0 +1,21 @@
+---
+import ResourceCard from "@/components/ResourceCard.astro";
+import resources from "@/data/resources.json";
+---
+
+<section
+  class="max-w-5xl w-full mx-auto flex flex-col justify-center items-center pt-16 px-4 md:px-0"
+>
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 gap-4">
+    {
+      resources.resources.map((resource: any) => (
+        <ResourceCard
+          title={resource.title}
+          image={resource.image}
+          url={resource.url}
+          tags={resource.tags}
+        />
+      ))
+    }
+  </div>
+</section>

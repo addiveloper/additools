@@ -1,0 +1,56 @@
+---
+import CopyIcon from "@/icons/copy.astro";
+import { CopyButton } from "./CopyButton";
+import { Image } from "astro:assets";
+import LinkIcon from "@/icons/link.astro";
+
+interface Props {
+  title: string;
+  image: string;
+  url: string;
+  tags: [];
+}
+
+const { title, image, url, tags } = Astro.props;
+---
+
+<article class="bg-accent text-primary rounded-lg overflow-hidden pb-2">
+  <a
+    href={url}
+    target="_blank"
+    class="group z-20 relative w-full full flex justify-center items-center overflow-hidden text-sm font-medium bg-primary dark:bg-secondary"
+  >
+    <LinkIcon
+      class="absolute z-30 opacity-0 group-hover:opacity-100 transition duration-300 text-white"
+    />
+    <Image
+      src={`${image}?tr=w-854,h-480`}
+      alt={title}
+      width={854}
+      height={480}
+      class="object-fit group-hover:opacity-40 transition duration-300"
+    />
+  </a>
+  <div class="flex flex-col gap-2 p-3">
+    <h2 class="font-bold text-lg truncate">{title}</h2>
+    <div class="flex text-xs gap-2 overflow-hidden">
+      {
+        tags.map((tag) => (
+          <p class="text-nowrap px-2 py-1 border rounded-md border-tag font-medium opacity-80">
+            {tag}
+          </p>
+        ))
+      }
+    </div>
+    <div class="flex justify-between gap-2 pt-2">
+      <code
+        class="text-sm truncate opacity-80 font-mono bg-secondary dark:bg-secondary py-1 px-2 rounded-md w-full"
+      >
+        {url}
+      </code>
+      <CopyButton url={url} client:visible>
+        <CopyIcon class="w-5 h-auto hover:opacity-80 transition" />
+      </CopyButton>
+    </div>
+  </div>
+</article>
