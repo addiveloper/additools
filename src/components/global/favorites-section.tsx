@@ -24,7 +24,7 @@ export const FavoritesSection = () => {
   }
 
   return (
-    <section className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 auto-rows-min gap-4 border border-muted-foreground/20 rounded-md w-full p-5">
+    <section className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 auto-rows-min gap-4 md:border md:border-muted-foreground/20 rounded-md w-full md:p-5">
       {favorites
         .sort((a, b) => a.title.localeCompare(b.title))
         .map((tool, index) => (

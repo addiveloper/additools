@@ -21,8 +21,6 @@ export const ToolCard = ({ tool }: ToolCardProps) => {
     tool.category.length > 1 ? [tool.category[1], "⋅⋅⋅"] : tool.category;
   const isFav = isFavorite(tool.id ?? tool.url);
 
-  console.log(isFav);
-
   const handleCopy = async (e: React.MouseEvent) => {
     e.preventDefault();
     try {
@@ -64,19 +62,19 @@ export const ToolCard = ({ tool }: ToolCardProps) => {
               "absolute left-3 top-3 transition-all duration-300",
               copied
                 ? "opacity-100 scale-110"
-                : "opacity-0 group-hover:opacity-100 scale-100 duration-150",
+                : "md:opacity-0 group-hover:opacity-100 scale-100 duration-150",
             )}
           >
             <div className="relative size-4 flex items-center justify-center">
               <Check
                 className={cn(
-                  "absolute transition-all duration-300 transform",
+                  "absolute transition-all duration-300 transform text-muted-foreground",
                   copied ? "scale-100 opacity-100" : "scale-0 opacity-0",
                 )}
               />
               <Copy
                 className={cn(
-                  "absolute transition-all duration-300 transform",
+                  "absolute transition-all duration-300 transform text-muted-foreground",
                   copied ? "scale-0 opacity-0" : "scale-100 opacity-100",
                 )}
               />
@@ -88,7 +86,7 @@ export const ToolCard = ({ tool }: ToolCardProps) => {
             className={cn(
               "absolute right-3 top-3 transition-all",
               "group-hover:opacity-100",
-              isFav ? "opacity-100" : "opacity-0",
+              isFav ? "opacity-100" : "md:opacity-0",
             )}
             onClick={handleFavorite}
           >
