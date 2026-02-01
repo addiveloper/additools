@@ -1,1 +1,1 @@
-export type Category = "Framework" | "Frontend" | "Backend" | "React";
+export type Category = "Framework" | "Frontend" | "Backend" | "React" | "Web";
