@@ -9,7 +9,7 @@ export const Sidebar = () => {
   const categoriesCount = getCategoriesCount(categories);
 
   return (
-    <aside className="px-3 min-w-3xs hidden md:flex flex-col gap-2">
+    <aside className="px-3 md:pl-0 md:pr-3 min-w-3xs hidden md:flex flex-col gap-2">
       <section className="flex flex-col gap-1">
         <SidebarLink
           href="/"
