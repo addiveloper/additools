@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <body
-        className={`${bricolageGrotesque.variable} ${geistMono.variable} ${bricolageGrotesque.className} antialiased`}
+        className={`${bricolageGrotesque.variable} ${geistMono.variable} ${bricolageGrotesque.className} antialiased dark:bg-neutral-900 bg-neutral-100`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
