@@ -43,7 +43,7 @@ export type Category = [
   | "React"
   | "Web"
   | "CSS"
-  |"New Category"; // <- Añádela aquí
+  | "New Category"; // <- Añádela aquí
 ];
 ```
 
