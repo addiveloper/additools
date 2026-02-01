@@ -85,9 +85,15 @@ export const Header = () => {
         <span className="text-muted-foreground opacity-40 text-xl mr-2 font-light">
           |
         </span>
-        <Button size={"sm"}>
-          <Send />
-          Agregar
+        <Button size={"sm"} asChild>
+          <a
+            href="https://github.com/addiveloper/additools?tab=readme-ov-file#-cómo-añadir-un-recurso"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Send />
+            Agregar
+          </a>
         </Button>
       </section>
     </header>
