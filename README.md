@@ -64,7 +64,7 @@ Si quieres clonar el proyecto para proponer mejoras en la interfaz o añadir nue
 1. Clona el repositorio:
 
 ```bash
-git clone [https://github.com/tu-usuario/additools.git](https://github.com/tu-usuario/additools.git)
+git clone [https://github.com/addiveloper/additools.git]
 cd additools
 ```
 
