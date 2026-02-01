@@ -27,6 +27,28 @@ Contribuir es muy fácil. Solo tienes que seguir estos pasos:
 
 4. Realiza un Pull Request con el nombre: feat: add [Nombre de la Herramienta].
 
+## 🚀 ¿Cómo añadir una categoría?
+
+Si el recurso que quieres añadir no encaja en ninguna categoría existente, debes registrarla primero:
+
+1. **Haz un Fork** de este repositorio.
+2. Abre el archivo `src/types/category.ts`
+3. Añade tu nueva categoría al Type:
+
+```typescript
+export type Category = [
+  | "Framework"
+  | "Frontend"
+  | "Backend"
+  | "React"
+  | "Web"
+  | "CSS"
+  |"New Category"; // <- Añádela aquí
+];
+```
+
+4. Realiza un Pull Request con el nombre: feat: add [Nombre de la Herramienta].
+
 ## ✨ Características principales
 
 - 🎯 Filtrado Inteligente: Encuentra lo que buscas navegando por categorías normalizadas.
