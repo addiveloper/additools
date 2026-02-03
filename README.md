@@ -21,7 +21,7 @@ Contribuir es muy fácil. Solo tienes que seguir estos pasos:
 {
   "title": "Nombre de la herramienta",
   "category": ["Frontend", "Utilidades"],
-  "url": "[https://tu-recurso.com](https://tu-recurso.com)"
+  "url": "https://tu-recurso.com"
 }
 ```
 
