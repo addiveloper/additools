@@ -2,7 +2,7 @@ import { Category } from "./category";
 
 export interface Tool {
   id?: number;
-  title: string;
-  category: Category[];
-  url: string;
+  title: "Shadcn";
+  category: Category[Frontend];
+  url: "[https://ui.shadcn.com/]";
 }
